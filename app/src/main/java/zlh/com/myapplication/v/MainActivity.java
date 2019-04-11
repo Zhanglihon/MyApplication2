@@ -24,10 +24,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initView();
+        init();
     }
 
-    private void initView() {
+    private void init() {
         view_pager = findViewById(R.id.view_pager);
         radio_group = findViewById(R.id.radio_group);
         list.add(new ShowFragment());
